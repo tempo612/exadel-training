@@ -1,0 +1,31 @@
+1. Пропингую сервер
+2. если нет - пропингую известный сайт, например, myip.ru
+	2а. если нет - перезагрузка модема, ПК
+	2б. если да - попробую подключиться к сайту через telnet
+
+*************************************************************
+
+
+Win+R -> Powershell
+
+ps | sort Id > .\Desktop\'List of processes.txt'
+
+
+
+#!/bin/bash
+
+$ ps aux
+#The ps command lists the currently running process.
+#The top command does the same thing.
+#-You can use the top command with -c option to view the executable path for the running process.
+
+ps >> myfile
+#Вывод результатов ps в файл myfile
+
+https://habr.com/ru/company/ruvds/blog/438796/
+https://habr.com/ru/company/ruvds/blog/325522/
+https://likegeeks.com/shell-scripting-awesome-guide-part4/
+https://likegeeks.com/main-linux-commands-easy-guide/
+https://likegeeks.com/basic-linux-commands-part2/#List_Running_Processes
+
+https://github.com/tempo612/exadel-training/new/main
